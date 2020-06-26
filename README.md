@@ -18,6 +18,7 @@ CPU：双核1.5G
 为了避免手机刚重启时大量的APP启动导致的文件读写性能下降，我们会在手机重启一分钟后开始读取数据。
 我们采用顺序读写整个文件而不是随机读写。
 
+![流程图](https://github.com/android-notes/mmap-benchmark/blob/master/%E6%B5%81%E7%A8%8B%E5%9B%BE.png)
 
 ### 数据分析
 
